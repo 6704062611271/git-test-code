@@ -1,10 +1,17 @@
 #include <stdio.h>
 int main (){
-int N1 = 5; 
-int N2 = 4; 
+int N1; 
+int N2; 
+scanf("%d", & N1);
+scanf("%d", & N2);
+
 if (N1>N2){
-    printf("N1 is Greater than N2");
+	int N3 = (N1-N2);
+    printf("%d \n",N1);
+    printf("Diff \t %d",N3);
 } else {
-    printf("N2 is Greater than N1");
+	int N3 = (N2-N1);
+    printf("%d \n",N2);
+    printf("Diff \t %d",N3);
 }
 }
